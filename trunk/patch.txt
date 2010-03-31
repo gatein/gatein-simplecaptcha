@@ -1,0 +1,1 @@
+This is a fork from SimpleCaptchia 1.1.1 to be compiled on JDK 5 and to use the com.jhlabs.filters libs available from iBiblio Maven repository
