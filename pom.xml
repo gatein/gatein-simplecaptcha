@@ -10,7 +10,7 @@
 
    <groupId>org.gatein.captcha</groupId>
    <artifactId>simplecaptcha</artifactId>
-   <version>1.1.1-GA-Patch02-SNAPSHOT</version>
+   <version>1.1.1-GA-Patch01-SNAPSHOT</version>
    <packaging>jar</packaging>
    
    <name>GateIn SimpleCaptcha</name>
@@ -27,5 +27,11 @@
          <version>2.5</version>
       </dependency>
    </dependencies>
+
+   <scm>
+      <connection>scm:svn:http://anonsvn.jboss.org/repos/gatein/components/simplecaptcha/trunk</connection>
+      <developerConnection>scm:svn:https://svn.jboss.org/repos/gatein/components/simplecaptcha/trunk</developerConnection>
+      <url>http://fisheye.jboss.org/browse/gatein/components/simplecaptcha/trunk</url>
+   </scm>
 </project>
   
