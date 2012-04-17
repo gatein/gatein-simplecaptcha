@@ -29,9 +29,23 @@
    </dependencies>
 
    <scm>
-      <connection>scm:svn:http://anonsvn.jboss.org/repos/gatein/components/simplecaptcha/trunk</connection>
-      <developerConnection>scm:svn:https://svn.jboss.org/repos/gatein/components/simplecaptcha/trunk</developerConnection>
-      <url>http://fisheye.jboss.org/browse/gatein/components/simplecaptcha/trunk</url>
+      <connection>scm:git:git://github.com/gatein/gatein-simplecaptcha.git</connection>
+      <developerConnection>scm:git:ssh://git@github.com/gatein/gatein-simplecaptcha.git</developerConnection>
+      <url>https://github.com/gatein/gatein-simplecaptcha</url>
    </scm>
+   
+   <properties>
+   
+      <!-- maven-release-plugin -->
+      <useReleaseProfile>false</useReleaseProfile>
+      <arguments>-Prelease</arguments>
+      <version.release.plugin>2.2.1</version.release.plugin>
+      <pushChanges>false</pushChanges>
+      <autoVersionSubmodules>true</autoVersionSubmodules>
+      
+      <!-- buildnumber-maven-plugin : needs 1.0 for git -->
+      <version.buildnumber.plugin>1.0</version.buildnumber.plugin>
+   
+   </properties>
 </project>
   
