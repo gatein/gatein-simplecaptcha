@@ -10,7 +10,7 @@
 
    <groupId>org.gatein.captcha</groupId>
    <artifactId>simplecaptcha</artifactId>
-   <version>1.1.1.Final-gatein-2-SNAPSHOT</version>
+   <version>1.1.1.Final-gatein-2</version>
    <packaging>jar</packaging>
    
    <name>GateIn SimpleCaptcha</name>
