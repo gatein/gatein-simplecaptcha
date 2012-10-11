@@ -5,12 +5,12 @@
     <parent>
       <groupId>org.gatein</groupId>
       <artifactId>gatein-parent</artifactId>
-      <version>1.0.0-GA</version>
+      <version>1.2.0.Beta01</version>
    </parent>
 
    <groupId>org.gatein.captcha</groupId>
    <artifactId>simplecaptcha</artifactId>
-   <version>1.1.1-GA-Patch02-SNAPSHOT</version>
+   <version>1.1.1.Final-gatein-2-SNAPSHOT</version>
    <packaging>jar</packaging>
    
    <name>GateIn SimpleCaptcha</name>
@@ -22,9 +22,9 @@
          <version>2.0.235</version>
       </dependency>
       <dependency>
-         <groupId>javax.servlet</groupId>
-         <artifactId>servlet-api</artifactId>
-         <version>2.5</version>
+        <groupId>javax.servlet</groupId>
+        <artifactId>javax.servlet-api</artifactId>
+        <version>3.0.1</version>
       </dependency>
    </dependencies>
 
@@ -34,18 +34,5 @@
       <url>https://github.com/gatein/gatein-simplecaptcha</url>
    </scm>
    
-   <properties>
-   
-      <!-- maven-release-plugin -->
-      <useReleaseProfile>false</useReleaseProfile>
-      <arguments>-Prelease</arguments>
-      <version.release.plugin>2.2.1</version.release.plugin>
-      <pushChanges>false</pushChanges>
-      <autoVersionSubmodules>true</autoVersionSubmodules>
-      
-      <!-- buildnumber-maven-plugin : needs 1.0 for git -->
-      <version.buildnumber.plugin>1.0</version.buildnumber.plugin>
-   
-   </properties>
 </project>
   
